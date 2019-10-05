@@ -1,5 +1,5 @@
-/* Filename: knapsack.cpp
- * Description: The command line program knapsack.cpp takes in one parameter,
+/* Filename: knapsack_big.cpp
+ * Description: The command line program knapsack_big.cpp takes in one parameter,
  *              an input file name. The input file specified by the input
  *		file name should describe an instance of the knapsack problem
  *		using the format
@@ -8,6 +8,10 @@
  *		...
  *		The program solves the knapsack problem using dynamic 
  *		programming to cache solutions to subproblems.
+ *
+ *		The main difference between this program and knapsack.cpp
+ *		is that we only use a 2 column array to cache the solutions
+ *		to subproblems.
  */
 
 #include <iostream>
